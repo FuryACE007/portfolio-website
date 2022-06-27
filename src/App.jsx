@@ -7,11 +7,12 @@ import Services from "./components/Services";
 import HireMe from "./components/HireMe";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import classes from './App.module.css';
 
 const App = () => {
   return (
     <>
-      <div className=" min-h-screen">
+      <main className={`min-h-screen ${classes.bgGradient} text-slate-50`}>
         <Hero />
         <Skills />
         <Projects />
@@ -20,7 +21,7 @@ const App = () => {
         <HireMe />
         <Footer />
         <Navbar />
-      </div>
+      </main>
     </>
   );
 };
