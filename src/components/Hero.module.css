@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Orbitron:wght@400;500;600&display=swap');
 
 .bgVideo {
     position: absolute;
@@ -12,12 +12,21 @@
 }
 
 .heroTitle {
-
     /* font-size: 72px; */
     background: linear-gradient(60deg, #E21143, #FFB03A);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 
     /* background-clip: border-box; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+
+/* ButtonHoverEffect */
+.btn{
+    font-family: 'Orbitron', sans-serif;
 }
