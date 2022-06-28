@@ -13,7 +13,7 @@
 
 .heroTitle {
     /* font-size: 72px; */
-    background: linear-gradient(60deg, #E21143, #FFB03A);
+    background: linear-gradient(to right, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60));
     font-family: 'Orbitron', sans-serif;
 
     /* background-clip: border-box; */
