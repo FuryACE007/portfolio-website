@@ -10,7 +10,7 @@ const Hero = () => {
       </video>
       <div className="absolute">
         <h1 className={`text-6xl ${classes.heroTitle}`}>Hi, I'm Sudhanshu</h1>
-        <h2 className={`text-2xl font-light py-7 ${classes.heroSubtitle}`}>
+        <h2 className={`text-2xl py-7 ${classes.heroSubtitle}`}>
           A Full Stack Web Developer who likes building amazing websites
         </h2>
         <button
