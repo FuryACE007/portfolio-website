@@ -30,11 +30,11 @@ const Skills = () => {
   ];
   return (
     <>
-      <div className="flex flex-col lg:px-[140px] items-center justify-center lg:min-h-[300px]">
+      <div className="flex flex-col lg:px-[140px] items-center mb-20 justify-center lg:min-h-[300px]">
         <h1 className="text-3xl font-light py-3 my-12 text-center border border-transparent border-b-emerald-200">
           My Top Skills
         </h1>
-        <div className="grid lg:grid-cols-2 gap-5">
+        <div className="grid lg:grid-cols-2 gap-7">
           {skills.map((skill) => (
             <Card key={skill.name}>{skill.name}</Card>
           ))}
