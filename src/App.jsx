@@ -7,12 +7,14 @@ import Services from "./components/Services";
 import HireMe from "./components/HireMe";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import classes from './App.module.css';
+import classes from "./App.module.css";
 
 const App = () => {
   return (
     <>
-      <main className={`min-h-screen ${classes.bgGradient} text-slate-50`}>
+      <main
+        className={`min-h-screen flex flex-col ${classes.bgGradient} text-slate-50`}
+      >
         <Hero />
         <Skills />
         <Projects />
@@ -20,7 +22,9 @@ const App = () => {
         <Services />
         <HireMe />
         <Footer />
-        <Navbar />
+        <div className="mx-auto">
+          <Navbar />
+        </div>
       </main>
     </>
   );

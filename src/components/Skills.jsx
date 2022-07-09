@@ -34,7 +34,7 @@ const Skills = () => {
         <h1 className="text-3xl font-light py-3 my-12 text-center border border-transparent border-b-emerald-200">
           My Top Skills
         </h1>
-        <div className="grid lg:grid-cols-2 gap-7">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-7">
           {skills.map((skill) => (
             <Card key={skill.name}>{skill.name}</Card>
           ))}

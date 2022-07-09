@@ -1,8 +1,11 @@
 import React from 'react'
+import classes from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className={`fixed bottom-5 lg:left-[43rem] w-[350px] h-14 bg-white justify-center items-center text-center ${classes.glass}`}>
+      
+    </div>
   )
 }
 
