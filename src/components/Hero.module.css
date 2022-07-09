@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Orbitron:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Oxanium:wght@300;400;500&display=swap');
 
 .bgVideo {
     position: absolute;
@@ -22,7 +22,7 @@
 }
 
 .heroSubtitle {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Oxanium', cursive;
     color: #fff;
 }
 
