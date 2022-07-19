@@ -17,7 +17,7 @@ const projects = [
     },
     {
         name: 'BIT Placement Cell',
-        description: 'A placement cell website for the placement cell of BIT Bangalore.',
+        description: 'A website for the placement cell of BIT Bangalore.',
         image: 'https://i.ibb.co/Hh8ZkZf/BIT-Bangalore-Placement-Cell.png',
         link: 'https://placementcellbit-c16e6.web.app/',
         github: 'https://github.com/FuryACE007/placement_cell_bit.git',
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         name: 'Blog Website',
-        description: 'A modern blog website with a clean and simple design.',
+        description: 'A modern blog website with a clean and simple UI.',
         image: 'https://i.ibb.co/LrtkZ9K/CMS-Blog.png',
         link: 'https://blog-project-nine.vercel.app/',
         github: 'https://github.com/FuryACE007/BlogProject.git',
