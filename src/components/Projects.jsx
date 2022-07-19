@@ -11,8 +11,8 @@ const Projects = () => {
   const codeIcon = <FontAwesomeIcon icon={faCode} />;
   const gitHubIcon = <FontAwesomeIcon icon={faGithub} size= '2x' />;
   return (
-    <div className=" flex flex-col lg:px-[140px] lg:min-h-[300px] items-center mb-12 pb-32 justify-center bg-slate-900 ">
-      <h1 className="text-3xl font-light py-3 my-12 text-center border border-transparent border-b-emerald-200">
+    <div className=" flex flex-col lg:px-[140px] lg:min-h-[300px] items-center pt-20 pb-32 justify-center bg-slate-900 ">
+      <h1 className="text-3xl font-light py-3 mb-24 text-center border border-transparent border-b-emerald-200">
         <div className="mb-4">{codeIcon}</div>
         <span>Apps I've Built</span>
       </h1>
