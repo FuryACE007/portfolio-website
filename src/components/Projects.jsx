@@ -22,7 +22,7 @@ const Projects = () => {
       <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-14">
         {projects.map((project) => (
           <a
-            className="flex flex-col relative items-center justify-center w-[36rem] h-[20rem] rounded-2xl"
+            className="flex flex-col relative items-center justify-center w-[36rem] h-[20rem] rounded-2xl shadow-xl shadow-slate-800"
             key={project.name}
             href={project.link}
             target="_blank"
@@ -41,7 +41,7 @@ const Projects = () => {
               <h1 className="title-font text-xl font-medium text-white mb-3">
                 {project.name}
               </h1>
-              <p className="leading-relaxed text-lg">{project.description}</p>
+              <p className="leading-relaxed text-lg text-gray-800 font-medium">{project.description}</p>
             </div>
           </a>
         ))}
