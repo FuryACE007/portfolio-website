@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <section id="footer">
-        <footer className="footer justify-center items-center flex flex-row py-14 mx-auto ">
+        <footer className="footer justify-center items-center flex flex-row py-28 mx-auto ">
           <div className="flex flex-col justify-center items-center">
             <p className="text-center text-gray-300 text-base">
               © {new Date().getFullYear()}{" "}

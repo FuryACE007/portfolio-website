@@ -27,7 +27,7 @@ const Hero = () => {
             >
               H I R E &nbsp;M E
             </button>
-          </a>  
+          </a>
         </div>
       </div>
     </section>
