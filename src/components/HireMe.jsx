@@ -42,7 +42,7 @@ const HireMe = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="hireMe">
       <div className=" flex flex-col lg:px-[140px] lg:min-h-[300px] items-center pt-20 pb-32 justify-center bg-emerald-400 text-slate-900">
         {hireIcon}
         <h1 className="text-3xl font-light mt-5 text-center border border-transparent border-b-slate-900">

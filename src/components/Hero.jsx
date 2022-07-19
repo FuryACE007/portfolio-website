@@ -14,11 +14,20 @@ const Hero = () => {
           <h2 className={`text-2xl py-7 ${classes.heroSubtitle}`}>
             A Full Stack Web Developer who likes building amazing websites
           </h2>
-          <button
-            className={`${classes.btn} bg-slate-50 block px-12 py-4 mt-6 text-black rounded-tl-none rounded-3xl items-center hover:rounded-none hover:bg-slate-900 hover:text-slate-100 duration-500`}
+          <a
+            href="/"
+            onClick={(e) => {
+              let hero = document.getElementById("hireMe");
+              e.preventDefault(); // Stop Page Reloading
+              hireMe && hireMe.scrollIntoView({ behavior: "smooth" });
+            }}
           >
-            H I R E &nbsp;M E
-          </button>
+            <button
+              className={`${classes.btn} bg-slate-50 block px-12 py-4 mt-6 text-black rounded-tl-none rounded-3xl items-center hover:rounded-none hover:bg-slate-900 hover:text-slate-100 duration-500`}
+            >
+              H I R E &nbsp;M E
+            </button>
+          </a>  
         </div>
       </div>
     </section>
