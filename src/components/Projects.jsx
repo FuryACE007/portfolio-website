@@ -17,10 +17,7 @@ const Projects = () => {
         <span>Apps I've Built</span>
       </h1>
       {/* Projects */}
-      {/* <div className="flex flex-col items-center justify-center bg-gray-800 w-[36rem] h-[20rem] rounded-2xl">
-            <h1 className=" text-xl">{project.name}</h1>
-            <h3 className=" leading-loose my-2"> {project.description} </h3>
-          </div> */}
+      
       <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-14">
         {projects.map((project) => (
           <a
