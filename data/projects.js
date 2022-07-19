@@ -3,7 +3,7 @@ const projects = [
         name: 'Coffee Connoiseur',
         description: 'A nearby coffee store locator app that allows users to find nearby coffee shops and their ratings.',
         image: 'https://i.ibb.co/8gbPbxK/Coffee-Connoiseur.png',
-        link: 'https://github.com/FuryACE007/coffee-stores.git',
+        link: 'https://coffee-connoiseur-two.vercel.app/',
         github: 'https://github.com/FuryACE007/coffee-stores.git',
         tech: 'NextJS, TailwindCSS, Foursquare API',
     },
