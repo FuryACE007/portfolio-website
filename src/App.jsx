@@ -20,9 +20,7 @@ const App = () => {
         {/* <Services /> */}
         <HireMe />
         <Footer />
-        {/* <div className="mx-auto">
-          <Navbar />
-        </div> */}
+        <Navbar />
       </main>
     </>
   );
