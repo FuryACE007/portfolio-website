@@ -20,9 +20,9 @@ const App = () => {
         {/* <Services /> */}
         <HireMe />
         <Footer />
-        <div className="mx-auto">
+        {/* <div className="mx-auto">
           <Navbar />
-        </div>
+        </div> */}
       </main>
     </>
   );
