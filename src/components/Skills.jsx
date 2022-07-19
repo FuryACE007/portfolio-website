@@ -46,7 +46,7 @@ const Skills = () => {
     },
   ];
   return (
-    <>
+    <section id="skills">
       <div className="flex flex-col lg:px-[140px] items-center mb-20 justify-center lg:min-h-[300px]">
         <h1 className="text-3xl font-light py-3 my-12 text-center border border-transparent border-b-emerald-200">
           My Top Skills
@@ -57,7 +57,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
