@@ -22,7 +22,7 @@ const Projects = () => {
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-14">
           {projects.map((project) => (
             <a
-              className="flex flex-col relative items-center justify-center w-[36rem] h-[20rem] rounded-2xl ring-8 ring-slate-800"
+              className="flex flex-col relative items-center justify-center lg:w-[36rem] lg:h-[20rem] sm:w-[20rem] sm:h-[12rem] mx-3 rounded-2xl ring-8 ring-slate-800"
               key={project.name}
               href={project.link}
               target="_blank"
