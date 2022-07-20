@@ -43,7 +43,7 @@ const HireMe = () => {
 
   return (
     <section id="hireMe">
-      <div className=" flex flex-col lg:px-[140px] lg:min-h-[300px] items-center pt-20 pb-32 justify-center bg-emerald-400 text-slate-900">
+      <div className=" flex flex-col lg:px-[140px] items-center md:pt-20 md:pb-32 pt-12 pb-20 justify-center bg-emerald-400 text-slate-900">
         {hireIcon}
         <h1 className="text-3xl font-light mt-5 text-center border border-transparent border-b-slate-900">
           Hire Me
@@ -54,7 +54,7 @@ const HireMe = () => {
           netlify
           name="contact"
           onSubmit={submitHandler}
-          className={`${classes.card} my-6 mt-10 flex flex-col w-2/3 h-full justify-center px-16 py-10`}
+          className={`${classes.card} my-6 mt-10 flex flex-col md:w-2/3 w-4/5 h-full justify-center md:px-16 md:py-10 px-5 py-6`}
         >
           <label htmlFor="name" className="py-3 text-lg">
             Name
