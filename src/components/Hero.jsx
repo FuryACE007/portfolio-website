@@ -7,7 +7,7 @@ import classes from "./Hero.module.css";
 const Hero = () => {
   return (
     <section id="home">
-      <div className="min-h-[39rem] flex flex-col relative lg:px-20 md:px-14 px-12 py-36">
+      <div className="min-h-[39rem] lg:min-h-[45rem] flex flex-col relative lg:px-20 md:px-14 px-12 py-36">
         <video className={classes.bgVideo} autoPlay loop muted>
           <source src={hero} type="video/mp4" />
         </video>

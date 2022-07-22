@@ -47,11 +47,11 @@ const Skills = () => {
   ];
   return (
     <section id="skills">
-      <div className="flex flex-col lg:px-[140px] items-center mb-20 justify-center lg:min-h-[300px]">
-        <h1 className="text-3xl font-light py-3 my-12 text-center border border-transparent border-b-emerald-200">
+      <div className="flex flex-col lg:px-[140px] items-center mb-20 lg:mt-[-5rem] justify-center lg:min-h-[40rem]">
+        <h1 className="text-3xl font-light py-3 my-12 lg:my-20 text-center border border-transparent border-b-emerald-200">
           My Top Skills
         </h1>
-        <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-7">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-10">
           {skills.map((skill) => (
             <Card key={skill.name}> <span className=" mx-2">{skill.icon?skill.icon:''}</span> {skill.name}</Card>
           ))}
