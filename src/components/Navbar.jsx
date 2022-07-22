@@ -2,11 +2,11 @@ import React from "react";
 import classes from "./Navbar.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faGear, faLaptopCode, faIdBadge } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faScrewdriverWrench, faLaptopCode, faIdBadge } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const homeIcon = <FontAwesomeIcon icon={faHouse} />;
-  const skillsIcon = <FontAwesomeIcon icon={faGear} />;
+  const skillsIcon = <FontAwesomeIcon icon={faScrewdriverWrench} />;
   const projectsIcon = <FontAwesomeIcon icon={faLaptopCode} />;
   const contactIcon = <FontAwesomeIcon icon={faIdBadge} />;
 
