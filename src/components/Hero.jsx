@@ -19,7 +19,7 @@ const Hero = () => {
             <TypewriterComponent
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Hii,")
+                  .typeString("ZM ZM Frens 👋")
                   .pauseFor(1000)
                   .typeString("")
                   .start();
@@ -45,7 +45,7 @@ const Hero = () => {
                 typewriter
                   .pauseFor(3000)
                   .typeString(
-                    "A Full Stack Web Developer who likes building amazing websites"
+                    "A Full Stack Web3 Builder"
                   )
                   .pauseFor(1000)
                   .start();
