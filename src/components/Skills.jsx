@@ -33,7 +33,7 @@ const Skills = () => {
       icon: nodeIcon,
     },
     {
-      name: "CMS: GraphCMS, Sanity",
+      name: "Smart Contract Development using Solidity",
       icon: null,
     },
     {
@@ -43,6 +43,14 @@ const Skills = () => {
     {
       name: "Styling using Pure CSS, Tailwind, Bootstrap, Material UI, Vuetify & Chakra UI",
       icon: cssIcon,
+    },
+    {
+      name: "Enterprize Blockchain Development using CORDA",
+      icon: null,
+    },
+    {
+      name: "Backend Development using Golang",
+      icon: null,
     },
   ];
   return (
